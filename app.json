@@ -8,8 +8,8 @@
     "cracking",
     "analysis"
   ],
-  "website": "https://github.com/yourusername/advanced-apk-cracker",
-  "repository": "https://github.com/yourusername/advanced-apk-cracker",
+  "website": "https://github.com/Eliahhango/crack",
+  "repository": "https://github.com/Eliahhango/crack",
   "success_url": "/",
   "env": {
     "NODE_ENV": {
