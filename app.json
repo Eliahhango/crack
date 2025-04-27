@@ -8,9 +8,12 @@
     "cracking",
     "analysis"
   ],
-  "website": "https://github.com/Eliahhango/crack",
-  "repository": "https://github.com/Eliahhango/crack",
+  "website": "https://github.com/yourusername/advanced-apk-cracker",
+  "repository": "https://github.com/yourusername/advanced-apk-cracker",
   "success_url": "/",
+  "scripts": {
+    "postdeploy": "npm install && cd client && npm install && npm run build"
+  },
   "env": {
     "NODE_ENV": {
       "description": "Node environment",
@@ -19,6 +22,10 @@
     "NPM_CONFIG_PRODUCTION": {
       "description": "NPM production flag",
       "value": "false"
+    },
+    "NODE_MODULES_CACHE": {
+      "description": "Cache node modules",
+      "value": "true"
     }
   },
   "buildpacks": [
@@ -36,5 +43,6 @@
     {
       "plan": "heroku-postgresql:essential-0"
     }
-  ]
+  ],
+  "stack": "heroku-22"
 } 
