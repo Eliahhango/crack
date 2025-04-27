@@ -1,0 +1,40 @@
+{
+  "name": "Advanced APK Cracker Pro",
+  "description": "A powerful tool for APK modification and VPN file analysis",
+  "keywords": [
+    "apk",
+    "vpn",
+    "modification",
+    "cracking",
+    "analysis"
+  ],
+  "website": "https://github.com/yourusername/advanced-apk-cracker",
+  "repository": "https://github.com/yourusername/advanced-apk-cracker",
+  "success_url": "/",
+  "env": {
+    "NODE_ENV": {
+      "description": "Node environment",
+      "value": "production"
+    },
+    "NPM_CONFIG_PRODUCTION": {
+      "description": "NPM production flag",
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:hobby-dev"
+    }
+  ]
+} 
