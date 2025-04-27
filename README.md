@@ -37,7 +37,7 @@ npm run dev:full
 
 ### Heroku Deployment
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/yourusername/advanced-apk-cracker)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Eliahhango/crack)
 
 1. Click the "Deploy to Heroku" button above
 2. Choose your app name
